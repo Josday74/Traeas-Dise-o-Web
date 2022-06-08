@@ -1,0 +1,51 @@
+
+
+<html lang="es">
+    <head>
+        <title>Sweet Secent</title>
+        <meta charset="UTF-8">
+        <meta name="Registro de clientes" content="Perfumes,clientes,Sweet Scent">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1 id="encabezado">Sweet Secent Perfumeria</h1>
+        </header>
+        <nav>
+            <a href="Registro.html">Registro</a> | <a href="index.html">Principal</a> | <a href="Hombre.html">Hombre</a> |
+            <a href="Mujer.html">Mujer</a> | <a href="Niños.html">Niños</a>| <a href="Reviews.html">Reviews</a> |
+            <a href="Ubicaciones.html">Ubicaciones</a> |<a href="Informacion.html">Informacion</a>
+        </nav>
+        <section>
+            <h2>Registro del cliente</h2>
+            <article>
+                <header><h3>Datos del cliente:</h3></header>
+                <hr>
+                <form action="confirmacion.jsp" method="POST">
+                    <fieldset>
+                        <legend> Datos Personales </legend>
+                        <label>Nombre completo</label>
+                        <input type="text"  placeholder="Nombre completo" required/>
+                        <br/>
+                        <label>Correo electrónico:</label>
+                        <input type="email" name="correo" placeholder="sucorreo@asguagdu.dds"/>
+                        <br/>
+                        <label>Celular</label>
+                        <input type="tel" name="telefono" placeholder="1232-4455" required/>
+                        <br/>
+                        <label>Contraseña:</label>
+                        <input type="password" name="password"  placeholder="*****"/>
+                        <br/>
+                    </fieldset>
+                    <fieldset>
+                        <legend> Enviar Informacion </legend>
+                        <label>Enviar Info</label>
+                        <input type="submit" value="Enviar"/>
+                        <br/>
+                    </fieldset>
+                    </section>
+                    <footer>
+                        Sitio desarrollado en el curso Web y Patrones 2022 &COPY; 
+                    </footer>
+                    </body>
+                    </html>

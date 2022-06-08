@@ -1,0 +1,32 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 jun. 2022, 18:11:36
+    Author     : Josday
+*/
+
+*{
+    background-color: darkgray;
+}
+body{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+h2{
+    background-color: gold;
+    color:white;
+}
+#encabezado{
+    background-color: black;
+    color: gold;
+    text-align: center;
+}
+.producto{
+    background-color: darkgray;
+    font-family: sans-serif;
+    color: black;
+}
+
